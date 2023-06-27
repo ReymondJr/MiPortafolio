@@ -1,0 +1,47 @@
+/*Colores de Marca*/
+.fa-facebook {
+    background:#1877f2;
+}
+.fa-instagram {
+    background: #c32aa3;
+}
+.fa-github {
+    background: #ff0000;
+}
+/*Agregar estilos adicionales a iconos*/
+
+.redes{
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+.redes a {
+    text-decoration: none;
+}
+.redes a:hover {
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+    opacity: .9;
+}
+.redes_imagen{
+    width: 25%;
+    justify-content: center;
+    display: flex;
+    margin-right: 10px; /* Espacio entre los iconos */
+    margin-bottom: 10px; /* Espacio entre las líneas */
+}
+.tipos_redes{
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    flex-direction: column;
+    border-radius: 40px;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}

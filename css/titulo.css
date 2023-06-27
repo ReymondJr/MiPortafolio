@@ -1,0 +1,45 @@
+.titulo{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+    padding: 2rem;
+}
+.nombre{
+    color: #000000;
+    font-family: Pacifico, cursive;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-content: center;
+	flex-wrap: wrap;
+	width: 60%;
+	padding: 2rem;
+   
+}
+.titulocabeza a{
+	text-decoration: none;
+	color: inherit;
+}
+.imagen{
+      width: 20%;
+      height: auto;
+	  border-radius: 75px;
+	  padding: 13px;
+	  display: flex;
+}
+.titulonombre{
+	font-weight: normal;
+    margin-top: 2rem;
+	width: 100%;
+	color: #000000;
+	font-size: 30px;
+}
+.subbio{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.titulo-div{
+	font-weight: bold;
+	font-size: 32px;
+	width: 100%;
+	text-align: center;
+	display: flex;
+}

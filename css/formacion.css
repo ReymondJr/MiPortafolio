@@ -1,0 +1,32 @@
+.formacion{
+    padding: 3rem;
+    text-align: center;
+    background: rgb(58, 113, 71);
+}
+.formacion_titulo{
+    text-align: center;
+    font-family: pacifico, cursive;
+    font-size: 2rem;
+    color: black;
+    padding: 0 0 13px 0;
+}
+.formacion_institucion{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    flex-direction: row;
+    border-radius: 40px;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+    font-style: italic;
+}
+.tipoformacion{
+    display: flex;
+    flex-direction: column;
+}
+.formacion_imagen{
+    width: 150px;
+    flex-direction: column;
+    padding: 2rem;
+}

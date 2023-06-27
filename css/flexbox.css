@@ -1,0 +1,9 @@
+.cabezaprincipal .caja {
+    display: flex;
+    align-items: center;
+    /*el space between es espacio entre los elementos*/
+    justify-content: space-between;
+}
+.cabezaprincipal-navegacion{
+    display: flex;
+}

@@ -1,0 +1,41 @@
+.habilidades{
+    padding: 3rem;
+    text-align: center;
+    background: rgb(58, 113, 71);
+}
+
+.habilidades_titulo{
+    padding: 2.5rem;
+    text-align: center;
+}
+.titulohab {
+    font-family: pacifico, cursive;
+    font-size: 2rem;
+    color: black;
+    padding: 0 0 13px 0;
+}
+
+
+.habilidades_tipos{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    flex-direction: row;
+    border-radius: 40px;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-family: pacifico;
+    font-style: italic;
+   
+}
+.Habilidades_imagen{
+    width: 150px;
+    flex-direction: column;
+    padding: 2rem;
+
+}
+
+.Tiposhabilidades{
+    display: flex;
+    flex-direction: column;
+}
