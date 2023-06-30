@@ -12,12 +12,12 @@
 
 .redes{
     color: #fff;
-    width: 100%;
+    width: 35%;
     height: 40px;
     font-size: 25px;
     display: flex;
     justify-content: center;
-    padding: 4rem;
+    padding: 2em;
 }
 .redes a {
     text-decoration: none;
@@ -32,16 +32,16 @@
     width: 25%;
     justify-content: center;
     display: flex;
-    margin-right: 10px; /* Espacio entre los iconos */
-    margin-bottom: 10px; /* Espacio entre las líneas */
+    margin-right: 5px; /* Espacio entre los iconos */
+    margin-bottom: 5px; /* Espacio entre las líneas */
 }
 .tipos_redes{
     display: flex;
-    width: 25%;
+    width: 50%;
     justify-content: space-evenly;
-    padding-top: 3rem;
     flex-direction: column;
     border-radius: 40px;
     flex-wrap: wrap;
     margin-right: 10px;
+    align-content: flex-start;
 }

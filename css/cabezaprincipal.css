@@ -29,6 +29,7 @@
 
 .menulista{
     display: flex;
+    font-size: 1.5rem;
 }
 
 .menuLink{
@@ -39,4 +40,48 @@
 
 .cabezaprincipal-navegacion-link:hover{
 	box-shadow: 4px 4px 4px #ccc;
+}
+
+@media screen and (min-width: 0) {
+    .logo{
+        display: none;
+    }
+    .menulista{
+        font-size: 8px;
+        display: flex;
+    }
+}
+@media screen and (min-width: 450px) {
+    .menulista{
+        font-size: 11px;
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .logo{
+        display: block;
+    }
+    .menulista{
+        font-size: 1em;
+        display: flex;
+    }
+}
+
+
+@media screen and (min-width : 0){
+    .cabezaprincipal{
+        padding: 0.5em;
+        justify-content: center;
+        display: flex;
+    }
+}
+
+@media screen and (min-width : 768px){
+    .cabezaprincipal{
+        display: flex;
+        padding: 0 5rem;
+        justify-content: space-between;
+    
+    }
 }
