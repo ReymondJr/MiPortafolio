@@ -1,0 +1,25 @@
+.contacto{
+    background: rgb(98, 34, 34);
+    font-family: Pacifico, cursive;
+    font-size: 2rem;
+}
+.grupocontacto{
+    padding: 0.5rem;
+}
+.label{
+    margin: 12px;
+    width: 20%;
+}
+.text{
+    width: 50%;
+    height: 32px;
+}
+.text-mensaje{
+    height: 190px;
+    width: 60%;
+}
+.boton{
+    width: 30%;
+    font-size: 1rem;
+    color: black;
+}
